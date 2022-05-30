@@ -8,8 +8,29 @@
   <body>
     <header>EVENTO</header>
     <main>
-      <label>Nombre</label>
-      <imput type="text"></imput>
+     
+          <legend>Rellena tus datos</legend>
+          <div>
+            <label>Nombre completo</label>
+            <input type="text" placeholder="Nombre y Apellido">
+          </div>
+        
+          <div>
+            <label>Correo</label>
+            <input type="email" placeholder="Tu email">
+          </div>
+        
+          <div>
+            <label for="creditCardNumber">Número de tarjeta</label>
+            <input id="creditCardNumber" type="text" placeholder="número de tarjeta">
+            <p id="warning1">"casilla vacía, completar"</p>
+          </div>
+
+          <div>
+            <input id="btnValidator" type="button" value="enviar">
+          </div>
+      
+      
     </main>
     <footer></footer>
     <script src="index.js" type="module"></script>
