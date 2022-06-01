@@ -1,7 +1,41 @@
+header{
+    margin:0px;
+    background-color: black;
+    color:aliceblue;
+}
+body{
+    background-color:#060F1E;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main{
+    display:flex;
+    align-items: flex-end;
+}
+
 #warning1{
     display:none;
   }
+#valid{
+    display:none;
+}
 
-#form{
-text-align:center
+#noValid{
+    display:none;
+}
+img {
+    width: 900px;
+    height: 500px;
+}
+
+#cardForm{
+height: 300px;
+width: 300px;    
+text-align:center;
+margin-left: 50px;
+margin-bottom: 200px;
+padding: 20px; 
+background-color: #960106;
+border-radius: 50px;
+color:white;
 }

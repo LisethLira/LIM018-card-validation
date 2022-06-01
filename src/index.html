@@ -8,29 +8,40 @@
   <body>
     <header>EVENTO</header>
     <main>
-     
-          <legend>Rellena tus datos</legend>
+      <div>
+        <img src="https://images.unsplash.com/photo-1435034568314-8303dbda4b8c?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1000&amp;q=80">
+      </div>
+      
+      <div>
+        <form id="cardForm">
+          <legend>Rellena tus datos</legend><br><br>
           <div>
             <label>Nombre completo</label>
-            <input type="text" placeholder="Nombre y Apellido">
+            <input type="text" placeholder="Nombre y Apellido"><br>
           </div>
         
           <div>
             <label>Correo</label>
-            <input type="email" placeholder="Tu email">
+            <input type="email" placeholder="Tu email"><br><br><br>
           </div>
         
           <div>
             <label for="creditCardNumber">Número de tarjeta</label>
-            <input id="creditCardNumber" type="text" placeholder="número de tarjeta">
-            <p id="warning1">"casilla vacía, completar"</p>
+            <input id="creditCardNumber" type="text" placeholder="número de tarjeta"><br>
+            <p id="warning1">**casilla vacía, completar</p>
+            <p id="valid">**número de tarjeta válido</p>
+            <p id="noValid">**número de tarjeta no válido</p>
           </div>
 
           <div>
-            <input id="btnValidator" type="button" value="enviar">
+            <input id="btnValidator" type="button" value="comprar"><br>
           </div>
-      
-      
+
+          <div>
+            <input id="btnReset" type="button" value="reset"><br>
+          </div>
+        </form>
+      </div>    
     </main>
     <footer></footer>
     <script src="index.js" type="module"></script>
