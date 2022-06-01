@@ -1,5 +1,3 @@
-//let creditCardNumber='4083952015263';
-
 const validator = {
   isValid: function (creditCardNumber){
   //Pasar a un array y revertir
@@ -32,10 +30,29 @@ const validator = {
     for(let i=0;i<arrayCardNumber.length;i++){
       sumaArray= sumaArray+arrayCardNumber[i];
     }
-    console.log(arrayCardNumber);
+    
+    //console.log(arrayCardNumber);
+    //console.log(sumaArray);
+    //console.log(sumaArray%10==0);
     return sumaArray%10==0;
 
+  },
+
+  maskify:function(creditCardNumber){
+    let visibleNumbers= creditCardNumber.slice(-4);
+    let invisibleNumbers=creditCardNumber.slice(0,-4);
+    let arrayInvisibleNumber= invisibleNumbers.split('');
+    
+    for (let i=0;i<arrayInvisibleNumber.length;i++){
+    arrayInvisibleNumber[i]="#";
+    //console.log(arrayInvisibleNumber);
+    }
+    
+    let cardInvisibleNumber= arrayInvisibleNumber.join('');
+    let newCardNumber= cardInvisibleNumber + visibleNumbers;
+    return newCardNumber;
   }
+
 }; 
-console.log(validator.isValid('4083952015263'));
+//console.log(validator.isValid('4083952015263'));
 export default validator;

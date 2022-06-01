@@ -1,7 +1,175 @@
-#warning1{
+body{
+    /*background-color:#060F1E;*/
+    background-color: transparent;
+    background-image: url(fondoInicio.png);
+    font-family: 'Lato', sans-serif;
+    margin:0;
+}
+
+
+#firstPage{
+color:white;
+font-family: 'Lato', sans-serif;
+display: grid;
+grid-template-columns: 33.3% 33.3% 33.3%;
+grid-template-rows:33.3% 33.3% 33.3%;
+}
+
+#container1{
+    text-align: right;
+    margin-right: 150px;
+    margin-top: 100px;
+    height: 500px;
+    grid-column-start:3;
+    grid-column-end: 4;
+ 
+}
+
+.titular{
+    font-family:'Tiro Gurmukhi', serif;
+    font-size: 40px;
+    color:#afeff7;
+    margin-bottom: 50px;
+}
+
+.btn1{
+    background-color:red;
+    color:white;
+    border-radius: 30px;
+    padding: 15px;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.btn1:hover{
+    background-color:rgba(255, 0, 0, 0.445);
+    color:white;
+    border-color: red;
+    border-radius: 30px;
+    padding: 15px;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.btn2{
+    background-color:#000617;
+    color:white;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    margin-top: 15px;
+    margin-bottom: 20px;  
+}
+
+.btn2:hover{
+    background-color:#0006179a;
+    color:white;
+    border-color: #000617;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    margin-top: 15px;
+    margin-bottom: 20px;  
+}
+
+img{
+    height:620px;
+    width:auto;
+}
+
+#cardForm{
+height: 620px;
+width: 720px;    
+text-align:center;
+line-height: 40px;
+margin-left: 0px;
+margin-bottom: 0px;
+padding-left: 20px; 
+background-color: white;
+border-radius: 0px;
+color:#000617;
+}
+
+.title{
+font-size: 30px;
+color:#000617;
+font-family: 'Lato', sans-serif;
+padding-top: 50px;
+padding-bottom: 30px;
+font-weight: bold;
+}
+
+.completar{
+    margin-bottom: 10px;
+}
+
+.box{
+    border-radius: 10px;
+    font-family: 'Lato', sans-serif;
+    height: 30px;
+    font-size: 15px;
+    border-color: #ccc;
+}
+
+#btnsForm{
+    display: inline-flex;
+}
+#warningCard{
     display:none;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color:red;
   }
 
-#form{
-text-align:center
+  #warningName{
+    display:none;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color:red;
+  }
+
+  #warningEmail{
+    display:none;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color:red;
+  }
+
+#valid{
+    color:rgb(74, 193, 248);
+    display:none;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
+
+#noValid{
+    display:none;
+    color:red;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#btnValidator{
+    margin-right: 40px;
+}
+
+#btnBackFirstPage{
+    margin-left: 40px;
+}
+
