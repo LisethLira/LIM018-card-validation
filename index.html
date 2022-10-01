@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Tarjeta de crédito válida</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rye&family=Tiro+Gurmukhi:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- <header>CIRCUS</header> -->
+    <main>
+      <div id="firstPage">
+        
+        <div id="container1">
+          <h1 class="titular"><b>LEGENDS PERÚ:</b><br> VIVE UNA<br> EXPERIENCIA<br> MÁGICA</h1>
+          <h3 class="text">Próxima función</h3>
+          <h2><b>15 de Julio</b></h2>
+          <input id="btnNextPage" class="btn1" type="button" value="consigue tu entrada aquí">
+        </div>
+        
+      </div>
+      
+    </main>
+    
+  <div id="secondPage">
+    
+    <div id="imagenContainerSecondPage">
+      <img id="ImagenSecondPage" src="ImagenSecondPage.jpg" alt="imagenDeSegundaPagina"> 
+      <!-- <img id="ImagenSecondPage" src="ImagenPageForm.jpg" alt="imagenDeSegundaPagina"> -->
+    </div>  
+    
+    <div id="containerForm">
+      <form id="cardForm">
+          <legend class="title">¡Rellena tus datos y obtén tu entrada!</legend>
+          <div>
+            <select name="ticketsType" id="ticketsType" class="select">
+              <option value="general">General   s./15.00</option>
+              <option value="vip">V.I.P   s./30.00</option>
+            </select>
+          </div>
+          <div class="completar">
+            <!-- <label for="boxId">Nombre completo</label><br> -->
+            <input id="boxName" class="box" type="text" placeholder="Nombre y Apellido">
+            <p id="warningName">**casilla vacía, completa tu nombre</p>
+          </div>
+      
+          <div class="completar">
+            <!-- <label for="boxId2">Correo</label><br> -->
+            <input class="box" id="boxEmail" type="email" placeholder="e-mail">
+            <p id="warningEmail">**casilla vacía, completar email</p>
+          </div>
+      
+          <div class="completar">
+            <!-- <label for="creditCardNumber">Número de tarjeta</label><br> -->
+            <input class="box" id="creditCardNumber" type="text" placeholder="número de tarjeta"><br>
+            <p id="warningCard">**casilla vacía, ingresa tu número de tarjeta</p>
+            <p id="valid">**número de tarjeta válido</p>
+            <p id="noValid">**número de tarjeta no válido</p>
+          </div>
+
+          <div id="btnsForm">
+            <div>
+              <input id="btnValidator" class="btn2" type="button" value="Comprar">
+            </div>
+
+            <div>
+              <input id="btnReset" class="btn2" type="button" value="Reset">
+            </div>
+            
+            <div>
+              <input id="btnBackFirstPage" class="btn2" type="button" value="Inicio">
+            </div>
+          
+          </div>
+        </form>
+      </div>
+    </div>
+
+
+    <footer>
+      <div class="container">
+        <p></p>
+      </div>
+    </footer>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
