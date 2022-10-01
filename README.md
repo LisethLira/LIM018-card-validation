@@ -40,4 +40,4 @@ Mi página web cuenta con una plataforma sencilla, facil de usar, y con botones 
  ![](https://github.com/LisethLira/LIM018-card-validation/blob/main/imagesReadme/PrototipoAlta.png)
 
 ###Github pages
-
+![](https://github.com/LisethLira/LIM018-card-validation/blob/main/imagesReadme/PrototipoAlta.png)
