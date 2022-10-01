@@ -31,17 +31,14 @@ Mi página web cuenta con una plataforma sencilla, facil de usar, y con botones 
 
 ![](https://github.com/LisethLira/LIM018-card-validation/blob/main/imagesReadme/prototipoBajaCalidad.png)
 
-###Feedback
  
- Uno de los feedback que me dieron durante el desarrollo es que podía mejorar un poco el orden de las agrupaciones que se hace en cada fragmento de código, ya sea html, css o javascript.
- 
-###Prototipo final
+### Prototipo final
  
  ![](https://github.com/LisethLira/LIM018-card-validation/blob/main/imagesReadme/PrototipoAlta.png)
 
-###Github pages
+### Github pages
 
 https://lisethlira.github.io/LIM018-card-validation/
 
-###Desarrolladora
+### Desarrolladora
 [Liseth Lira](https://github.com/LisethLira)
