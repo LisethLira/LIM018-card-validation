@@ -7,9 +7,9 @@ En este proyecto se realizó una página web en la cual nuestros usuarios pueden
 
 ### Proyecto Final:
 
-<img src=pantallaInicioFinal.png alt="pantallaInicio">
+![](https://github.com/LisethLira/LIM018-card-validation/blob/main/imagesReadme/pantallaInicio%20Final.png)
 
-<img src=pantallaFormularioFinal.png alt="pantallaFormulario">
+![](https://github.com/LisethLira/LIM018-card-validation/blob/main/imagesReadme/pantallaFormularioFinal.png)
 
 ###Investigación UX:
 
@@ -29,7 +29,7 @@ Mi página web cuenta con una plataforma sencilla, facil de usar, y con botones 
  
 ### Prototipo de baja calidad:
 
-<img src="prototipoBajaCalidad.png" alt="prototipoDeBajaCalidad">
+![](https://github.com/LisethLira/LIM018-card-validation/blob/main/imagesReadme/prototipoBajaCalidad.png)
 
 ###Feedback
  
@@ -37,4 +37,7 @@ Mi página web cuenta con una plataforma sencilla, facil de usar, y con botones 
  
 ###Prototipo final
  
- <img src=PrototipoAlta.png alt="ProtipoFinal">
+ ![](https://github.com/LisethLira/LIM018-card-validation/blob/main/imagesReadme/PrototipoAlta.png)
+
+###Github pages
+
