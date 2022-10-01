@@ -30,12 +30,8 @@ const validator = {
     for(let i=0;i<arrayCardNumber.length;i++){
       sumaArray= sumaArray+arrayCardNumber[i];
     }
-    
-    //console.log(arrayCardNumber);
-    //console.log(sumaArray);
-    //console.log(sumaArray%10==0);
-    return sumaArray%10==0;
 
+    return sumaArray%10==0;
   },
 
   maskify:function(creditCardNumber){

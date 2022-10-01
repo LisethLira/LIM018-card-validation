@@ -7,9 +7,9 @@ En este proyecto se realizó una página web en la cual nuestros usuarios pueden
 
 ### Proyecto Final:
 
-<img src="pantallaInicioFinal.png" alt="pantallaInicio">
+<img src=pantallaInicioFinal.png alt="pantallaInicio">
 
-<img src="pantallaFormularioFinal.png" alt="pantallaFormulario">
+<img src=pantallaFormularioFinal.png alt="pantallaFormulario">
 
 ###Investigación UX:
 
@@ -37,4 +37,4 @@ Mi página web cuenta con una plataforma sencilla, facil de usar, y con botones 
  
 ###Prototipo final
  
- <img src="PrototipoAlta.png" alt="ProtipoFinal">
+ <img src=PrototipoAlta.png alt="ProtipoFinal">
