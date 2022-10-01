@@ -11,7 +11,7 @@ En este proyecto se realizó una página web en la cual nuestros usuarios pueden
 
 ![](https://github.com/LisethLira/LIM018-card-validation/blob/main/imagesReadme/pantallaFormularioFinal.png)
 
-###Investigación UX:
+### Investigación UX:
 
  * ¿Quiénes son los principales usuarios de producto?.*
 
@@ -31,7 +31,6 @@ Mi página web cuenta con una plataforma sencilla, facil de usar, y con botones 
 
 ![](https://github.com/LisethLira/LIM018-card-validation/blob/main/imagesReadme/prototipoBajaCalidad.png)
 
- 
 ### Prototipo final
  
  ![](https://github.com/LisethLira/LIM018-card-validation/blob/main/imagesReadme/PrototipoAlta.png)
